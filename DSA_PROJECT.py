@@ -1,12 +1,12 @@
 import heapq
 
 class TrieNode:
-    def init(self):
+    def __init__(self):
         self.children = {}
         self.document_ids = []
 
 class HybridDataStructure:
-    def init(self):
+    def __init__(self):
         self.root = TrieNode()
         self.documents = {}
 
